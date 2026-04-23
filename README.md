@@ -23,14 +23,14 @@ Minimal repository with code and structure reference:
 ### 🗄️ **Zenodo Repository** 
 All data files compressed by directory (~8-10 GB total):
 
-| **Archive File** | **Content Description** | **Compressed** | **Uncompressed** |
-|------------------|-------------------------|----------------|------------------|
-| `docking.tar.xz` | Complete docking workflow: structures, poses, grids, results | ~2.7 MB | ~5.5 GB |
-| `md_trajs.tar.xz` | Aligned MD trajectories (15 × 100ns, 1 last 5 frames) + dry topologies | ~3.9 GB | ~6 GB |
-| `chalcone-13e.tar.xz` | System 13e: solvated topology + MD input files | ~3.1 MB | ~100 MB |
-| `chalcone-14c.tar.xz` | System 14c: solvated topology + MD input files | ~3.1 MB | ~100 MB |
-| `chalcone-14l.tar.xz` | System 14l: solvated topology + MD input files | ~3.1 MB | ~100 MB |
-| `md_initial_structures.tar.xz` | Initial structures for MD preparation | ~1 MB | ~100 MB |
+| **Archive File** | **Content Description** | **Compressed** |
+|------------------|-------------------------|----------------|
+| `docking.tar.xz` | Complete docking workflow: structures, poses, grids, results | ~2.7 MB |
+| `md_trajs.tar.xz` | Aligned MD trajectories (15 × 100ns, 1 last 5 frames) + dry topologies | ~3.9 GB |
+| `chalcone-13e.tar.xz` | System 13e: solvated topology + MD input files | ~3.1 MB |
+| `chalcone-14c.tar.xz` | System 14c: solvated topology + MD input files | ~3.1 MB |
+| `chalcone-14l.tar.xz` | System 14l: solvated topology + MD input files | ~3.1 MB |
+| `md_initial_structures.tar.xz` | Initial structures for MD preparation | ~1 MB |
 
 
 **⚠️ Note:** The `md_analysis/` directory is **NOT** in Zenodo - it will be created automatically when you run the analysis notebooks.
