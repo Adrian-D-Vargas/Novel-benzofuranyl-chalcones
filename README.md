@@ -35,7 +35,7 @@ All data files compressed by directory (~8-10 GB total):
 
 **⚠️ Note:** The `md_analysis/` directory is **NOT** in Zenodo - it will be created automatically when you run the analysis notebooks.
 
-**Zenodo DOI:** [10.5281/zenodo.19711992]
+**Zenodo DOI:** [10.5281/zenodo.19711992](https://doi.org/10.5281/zenodo.19711992)
 
 ---
 
@@ -50,7 +50,7 @@ cd benzo-chalcones
 
 ### **STEP 2: Download and Extract Zenodo Data**
 
-1. **Visit Zenodo:** DOI: [10.5281/zenodo.19711992]
+1. **Visit Zenodo:** DOI: [10.5281/zenodo.19711992](https://doi.org/10.5281/zenodo.19711992)
 2. **Download all `.tar.xz` archives** to your repository root
 3. **Extract each archive:**
 
@@ -311,7 +311,7 @@ If you use this code or data, please cite:
 
 **Article:** *(to be published)*
 
-**Zenodo Dataset:** DOI: [10.5281/zenodo.19711992]
+**Zenodo Dataset:** DOI: [10.5281/zenodo.19711992](https://doi.org/10.5281/zenodo.19711992)
 
 ---
 
