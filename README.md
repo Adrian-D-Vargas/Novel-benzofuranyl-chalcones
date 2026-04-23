@@ -19,7 +19,6 @@ Minimal repository with code and structure reference:
 - ✅ **Jupyter notebooks only** (`1_docking-analysis.ipynb`, `2_md-preparation.ipynb`, `3_md-analysis.ipynb`, `4_md-visualizations.ipynb`)
 - ✅ **Documentation** (`README.md`, `LICENSE`)
 - ✅ **Experimental data summary** (`results.csv` - biological activity and computational results)
-- ✅ **Empty directory structure** (for reference only)
 
 ### 🗄️ **Zenodo Repository** 
 All data files compressed by directory (~8-10 GB total):
