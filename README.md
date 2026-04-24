@@ -44,8 +44,8 @@ All data files compressed by directory (~8-10 GB total):
 ### **STEP 1: Clone GitHub Repository**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/benzo-chalcones.git
-cd benzo-chalcones
+git clone https://github.com/Adrian-D-Vargas/Novel-benzofuranyl-chalcones.git
+cd Novel-benzofuranyl-chalcones
 ```
 
 ### **STEP 2: Download and Extract Zenodo Data**
