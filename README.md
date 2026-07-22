@@ -6,21 +6,21 @@ This repository contains the **in silico** component of the research article:
 
 The computational workflow includes molecular docking, molecular dynamics (MD) simulations, and trajectory analysis of chalcone derivatives against the *Leishmania* FAD-dependent reductase (FRD) enzyme.
 
-> **⚠️ Important:** This repository contains **only Jupyter notebooks**. All data files (~8-10 GB) are hosted on **Zenodo** as compressed archives. Download and extract them following the [Quick Start](#-quick-start) instructions below.
+> ** Important:** This repository contains **only Jupyter notebooks**. All data files (~8-10 GB) are hosted on **Zenodo** as compressed archives. Download and extract them following the [Quick Start](#-quick-start) instructions below.
 
 ---
 
-## 📦 Data Distribution: GitHub vs Zenodo
+##  Data Distribution: GitHub vs Zenodo
 
 Due to file size constraints, this project's data is split between **GitHub** (notebooks only) and **Zenodo** (all data files).
 
-### 📁 **GitHub Repository** (this repo)
+###  **GitHub Repository** (this repo)
 Minimal repository with code and structure reference:
-- ✅ **Jupyter notebooks only** (`1_docking-analysis.ipynb`, `2_md-preparation.ipynb`, `3_md-analysis.ipynb`, `4_md-visualizations.ipynb`)
-- ✅ **Documentation** (`README.md`, `LICENSE`)
-- ✅ **Experimental data summary** (`results.csv` - biological activity and computational results)
+-  **Jupyter notebooks only** (`1_docking-analysis.ipynb`, `2_md-preparation.ipynb`, `3_md-analysis.ipynb`, `4_md-visualizations.ipynb`)
+-  **Documentation** (`README.md`, `LICENSE`)
+-  **Experimental data summary** (`results.csv` - biological activity and computational results)
 
-### 🗄️ **Zenodo Repository** 
+###  **Zenodo Repository** 
 All data files compressed by directory (~8-10 GB total):
 
 | **Archive File** | **Content Description** | **Compressed** |
@@ -33,13 +33,13 @@ All data files compressed by directory (~8-10 GB total):
 | `md_initial_structures.tar.xz` | Initial structures for MD preparation | ~1 MB |
 
 
-**⚠️ Note:** The `md_analysis/` directory is **NOT** in Zenodo - it will be created automatically when you run the analysis notebooks.
+** Note:** The `md_analysis/` directory is **NOT** in Zenodo - it will be created automatically when you run the analysis notebooks.
 
 **Zenodo DOI:** [10.5281/zenodo.19711992](https://doi.org/10.5281/zenodo.19711992)
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### **STEP 1: Clone GitHub Repository**
 
@@ -70,7 +70,7 @@ ls -d */
 
 ### **STEP 3: What You Can Run**
 
-**✅ Fully Executable Analyses:**
+** Fully Executable Analyses:**
 
 - `1_docking-analysis.ipynb` - Complete docking workflow and SAR analysis (reference)
 - `2_md-preparation.ipynb` - System preparation walkthrough (reference, systems already built)
@@ -81,14 +81,14 @@ ls -d */
   - Native contacts analysis
 - `4_md-visualizations.ipynb` - Comprehensive visualization and summary report
 
-**📖 Reference Only** (require full 100 ns production trajectories ~150 GB, not in Zenodo):
+** Reference Only** (require full 100 ns production trajectories ~150 GB, not in Zenodo):
 
 - `3_md-analysis.ipynb` - **Section 1:** Trajectory alignment (outputs already in `md_trajs/`)
 - `3_md-analysis.ipynb` - **Section 6:** MM-PBSA free energy calculations
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 **After extracting Zenodo files, your directory will contain:**
 
@@ -141,7 +141,7 @@ Novel-benzofuranyl-chalcones/
 
 ---
 
-## 📓 Notebook Descriptions
+##  Notebook Descriptions
 
 ### **1_docking-analysis.ipynb**
 Complete molecular docking workflow for 34 chalcone derivatives against the FRD enzyme.
@@ -230,7 +230,7 @@ Comprehensive statistical visualization and summary of MD trajectory analysis.
 
 ---
 
-## 🚀 Usage Workflow
+##  Usage Workflow
 
 ### **Standard Workflow (Recommended)**
 
@@ -267,7 +267,7 @@ Only if you want to reproduce MD simulations (requires AMBER license + HPC clust
 
 ## � Key Results
 
-### 📊 Experimental and Computational Summary
+###  Experimental and Computational Summary
 
 This study evaluated **35 benzofuranyl chalcones** against *Leishmania mexicana*. The complete dataset is available in [`results.csv`](results.csv).
 
@@ -292,7 +292,7 @@ This study evaluated **35 benzofuranyl chalcones** against *Leishmania mexicana*
 
 ---
 
-### 🧬 Molecular Dynamics Simulations
+###  Molecular Dynamics Simulations
 
 **Selected systems** (3 compounds with highest metabolic inhibition):
 
@@ -305,24 +305,24 @@ This study evaluated **35 benzofuranyl chalcones** against *Leishmania mexicana*
 ---
 
 
-## 📚 Citation
+##  Citation
 
 If you use this code or data, please cite:
 
-**Article:** *(to be published)*
+**Article:** DOI: [10.1002/cmdc.70386](https://doi.org/10.1002/cmdc.70386)
 
 **Zenodo Dataset:** DOI: [10.5281/zenodo.19711992](https://doi.org/10.5281/zenodo.19711992)
 
 ---
 
-## 📧 Contact
+##  Contact
 
 For questions or issues regarding the computational workflow:
 - **Email:** adv291882@gmail.com
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
